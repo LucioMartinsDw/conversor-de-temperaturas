@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box; /*Reset das configuracoes padrao*/
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #7c0676; /* Configuracoes do corpo do doc.*/
+    color: #0d8207;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  form fieldset {
+    border: none;
+  }
+  
+  /* secao de classes de estilos aplicados */
+  
+  .temperatura-conversor {
+    background: #ecebeb;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .titulo-de-secao {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .tipo-do-grau {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .campo-do-grau {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+  }
+  
+  .escalas-temperatura {
+    border: solid 1px rgb(122, 22, 221);
+    padding: 10px;
+  
+  }
+  
+  .campo-resultado {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .cabecalho-resultado {
+    color: #555;
+  
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .valor-em-celsius {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* fim da secao de classes de estilos aplicados */
+  
+  label {
+    color: #555;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+  }
+  
+  /* estilos aplicados ao elementos do formulario */
+  input,
+  select {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  input:focus {
+    border: 1px solid #4c49f3;
+  }
+  
+  
+  option {
+    background-color: #3c39e7;
+    color: #f6f6f6;
+  }
+  
+  /* fim dos estilos aplicados aos elementos do formulario */
+  
+  
+  /* estilos aplicados ao botao do formulario */
+  
+  .btn {
+    background: linear-gradient(to bottom, #3633f3, #120fb9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;   
+    cursor: pointer;                  
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(to bottom, #4a47e7, #322fda);
+  }
+  
+    /* estilos aplicados ao rodape do formulario */
+  
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #1e0211;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
