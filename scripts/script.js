@@ -1,4 +1,4 @@
-  /* Todos os bloco de codigos estão perfeitamente funcionado */  
+  /* Todos os bloco de codigos estão perfeitamente funcionando */  
   const celsiusElem = document.querySelector("#celsius");
   const grau = document.querySelector("#grau");
   const convertBtn = document.querySelector("#converter-btn");
