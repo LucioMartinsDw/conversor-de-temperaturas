@@ -14,7 +14,4 @@ Um simples conversor de temperatura desenvolvido em JavaScript que converte valo
 
 Um navegador web compatível.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
